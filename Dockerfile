@@ -6,7 +6,7 @@ RUN mkdir -p /luigi/tests
 ADD ./tests/sample_test.py /luigi/tests
 VOLUME /luigi/tests
 
-RUN "source /luigi/.pyenv/bin/activate \
+RUN bash -c "source /luigi/.pyenv/bin/activate \
     && pip install nose"
 
 ENTRYPOINT ["bash", "nosetests tests"]
