@@ -11,4 +11,4 @@ RUN source /luigi/.pyenv/bin/activate \
 
 WORKDIR /tests
 
-ENTRYPOINT ["bash", "nosetests"]
+ENTRYPOINT ["bash", "nosetests tests"]
