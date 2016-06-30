@@ -1,4 +1,4 @@
-FROM smbc-digital/docker-luigi-taskrunner:latest
+FROM stockport/luigi-taskrunner:latest
 
 MAINTAINER  Stockport <info@stockport.gov.uk>
 
