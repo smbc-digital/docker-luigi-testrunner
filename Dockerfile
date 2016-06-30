@@ -11,4 +11,4 @@ RUN bash -c "source /luigi/.pyenv/bin/activate \
 
 ADD run.sh /luigi/
 
-ENTRYPOINT ["bash", "run.sh"]
+ENTRYPOINT ["bash", "/luigi/run.sh"]
