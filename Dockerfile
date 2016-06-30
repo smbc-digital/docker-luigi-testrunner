@@ -7,7 +7,7 @@ ADD ./tests/sample_test.py /luigi/tests
 VOLUME /luigi/tests
 
 RUN bash -c "source /luigi/.pyenv/bin/activate \
-    && pip install nose"
+    && pip install nose pyhamcrest"
 
 ADD run.sh /luigi/
 

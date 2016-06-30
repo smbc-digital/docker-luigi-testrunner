@@ -2,4 +2,4 @@
 
 source /luigi/.pyenv/bin/activate
 
-nosetests -v luigi/tests/*
+nosetests -v luigi/tasks/tests
