@@ -9,4 +9,4 @@ VOLUME /luigi/tests
 RUN bash -c "source /luigi/.pyenv/bin/activate \
     && pip install nose"
 
-ENTRYPOINT ["bash", "nosetests tests"]
+ENTRYPOINT ["bash", "nosetests /luigi/tests"]
